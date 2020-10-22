@@ -58,7 +58,8 @@ comments: true
 ```
 Ovservable.just(10,20,30,40,50) //데이터 발행
           .filter(number -> number > 300) //데이터 가공 (데이터 필터링)
-          .subscribe(num -> System.out.println(getThreadName() + " : result : " + num)); //데이터 처리 (발행된 데이터 필터링 데이터를 전달받아 로그로 출력)
+          .subscribe(num -> System.out.println(getThreadName() + " : result : " + num));
+          //데이터 처리 (발행된 데이터 필터링 데이터를 전달받아 로그로 출력)
 ```
 
 - 함수 정리

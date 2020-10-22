@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: PaperToMath
-slug: papertomath
-category: dev
+title: Kotlin
+slug: kotlin
+category: android
 menu: false
 order: 3
 ---

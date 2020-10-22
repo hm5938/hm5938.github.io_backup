@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: ML
-slug: ml
-category: dev
+title: Java
+slug: java
+category: android
 menu: false
 order: 1
 ---

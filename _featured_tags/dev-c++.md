@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: DL
-slug: dl
+title: C++
+slug: c++
 category: dev
 menu: false
 order: 2

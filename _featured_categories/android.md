@@ -1,10 +1,10 @@
 ---
 layout: list
-title: Favorites
-slug: favorites
+title: Android
+slug: android
 menu: true
-submenu: false
-order: 7
+submenu: true
+order: 1
 description: >
-  개발, 일상 등 유용한 즐겨찾기 모음.
+  안드로이드 개발에 관한 모든것.
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "[RxJava] RxJava 알아보기 - 리액티브 프로그래밍(Reactive Programming)이란?"
 subtitle: "Rxjava"
 categories: android
-tags: android rxjava intro  
+tags: android rxjava intro reactive programming  
 comments: true
 ---
 

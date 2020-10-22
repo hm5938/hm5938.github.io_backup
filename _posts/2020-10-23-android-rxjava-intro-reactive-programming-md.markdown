@@ -9,7 +9,7 @@ comments: true
 
 
 ## 개요
-> 지금 당장 필요한 `마크다운(Markdown)` 문법부터 단계적으로 배워봅시다.  
+> `Reactive Programming`을 알아보자  
   
 - 목차
 	- [Reactive Progamming이란?](#reactive-programming이란) 
@@ -61,10 +61,12 @@ Ovservable.just(10,20,30,40,50) //데이터 발행
           .subscribe(num -> System.out.println(getThreadName() + " : result : " + num)); //데이터 처리 (발행된 데이터 필터링 데이터를 전달받아 로그로 출력)
 ```
 
-- 그 외 함수들
+- 함수 정리
 
-````
-.doOnNext()` : 데이터가 발행 될 때 실행되는 함수
-`.subscribeOn()` : 데이터를 발행하는 쓰레드를 지정
-`.observeOn()` : 데이터 가공,처리하는 쓰레드를 지정  
-```
+> * `.just()` : `데이터 발행`
+> * `.doOnNext()` : 데이터가 발행 될 때 실행되는 함수
+> * `.subscribeOn()` : 데이터를 발행하는 쓰레드를 지정
+> * `.observeOn()` : 데이터 가공,처리하는 쓰레드를 지정  
+> * `.filter()` : `데이터 가공`
+> * `.subcribe()` : `데이터 처리`
+

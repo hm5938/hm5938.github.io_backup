@@ -19,7 +19,7 @@ comments: true
   
 ## Reactive Programming이란?  
 ---
-[Reactive Programming](http://kirkstrobeck.github.io/whatismarkdown.com/)은 문서 작성을 지원하는 태그(Tag) 형식의 문법이다. 
+`Reactive Programming`은 문서 작성을 지원하는 태그(Tag) 형식의 문법이다. 
 
 > __What is Reacrive Programming? (출처 - 위키피디아)__  
 > In computing, reactive programming is a `declarative programming` paradigm concerned with `data streams` and `the propagation of change`. 

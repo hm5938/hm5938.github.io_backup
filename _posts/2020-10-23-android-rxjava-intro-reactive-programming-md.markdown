@@ -55,7 +55,7 @@ comments: true
 * 데이터 가공 
 * 데이터 구독(처리)
 
-```
+```java
 Ovservable.just(10,20,30,40,50) //데이터 발행
           .filter(number -> number > 300) //데이터 가공 (데이터 필터링)
           .subscribe(num -> System.out.println(getThreadName() + " : result : " + num));

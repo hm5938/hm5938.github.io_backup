@@ -23,13 +23,16 @@ comments: false
 생성, 검색, 변환의 기능에 따른 연산자를 알아보자
 
 __Observable 생성__
-create(), fromIterable(), fromArray(), just(), range(). repeat()
+
+> reate(), fromIterable(), fromArray(), just(), range(). repeat()
 
 __Filtering & Sorting__
-filter(), distinct(), take(). takeLast(). skip()
+
+> filter(), distinct(), take(). takeLast(). skip()
 
 __다른유형으로 변환__
-map(), flatMap(), switchMap(), buffer(), concatMap()
+
+> map(), flatMap(), switchMap(), buffer(), concatMap()
 
 ## Create Operators
 

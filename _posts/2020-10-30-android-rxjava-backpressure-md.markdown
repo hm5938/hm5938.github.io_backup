@@ -9,7 +9,7 @@ comments: false
 
 
 ## 개요
-> Backpressure(배압)에 대해 알아보고, Followables
+> Backpressure(배압)에 대해 알아보고, Folowable을 사용해보자
   
 - 목차
 	- [Backpressure](#backpressure) 

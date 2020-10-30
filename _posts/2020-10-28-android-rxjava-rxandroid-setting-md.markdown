@@ -74,7 +74,7 @@ RxPermissions는 RxJava에서 제공하는 안드로이드 런타임 권한 라�
     implementation 'io.reactivex.rxjava2:rxjava:2.2.17'
     implementation 'io.reactivex.rxjava2:rxkotlin:2.4.0'
 // 필요한 API를 찾아서 추가 합니다.
-     implementation 'com.jakewharton.rxbinding3:rxbinding:3.1.0'
+    implementation 'com.jakewharton.rxbinding3:rxbinding:3.1.0'
     implementation 'com.uniquext.android:rxlifecycle:2.0.0'
 ```
-```
+

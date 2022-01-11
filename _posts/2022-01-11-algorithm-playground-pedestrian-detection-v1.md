@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[PlayGround] 자이로, 가속도계를 이용한 보행자 감지 시스템"
-subtitle: "Playground"
+subtitle: "playground"
 categories: algorithm
 tags: algorithm playground pedestrian detection
 

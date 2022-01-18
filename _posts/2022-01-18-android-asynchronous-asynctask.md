@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[Asynchornous] AsyncTask"
-subtitle: "asynchornous"
+title:  "[Asynchronous] AsyncTask"
+subtitle: "asynchronous"
 categories: android
-tags: android asynchornous asyncTask
+tags: android asynchronous asyncTask
 
 comments: false
 ---
@@ -13,14 +13,15 @@ comments: false
 > AsynTask
   
 - 목차
-	- [AsynTask란 무엇일까](#AsynTask란-무엇일까)
-	- [사용법](#사용법)
+  - [AsynTask란 무엇일까](#AsynTask란-무엇일까)
+  - [사용법](#사용법)
   - [제약조건](#제약조건)
   - [장단점](#장단점)
   - [대체 방식](#대체-방식)
 	
   
 ## AsynTask란 무엇일까
+
 ---
 `AsynTask`은 비동기 작업을 도와주는 클래스로 Android API level 30에서 desperated 되었다.
 

@@ -3,7 +3,7 @@ layout: post
 title:  "[Asynchronous] AsyncTask"
 subtitle: "asynchronous"
 categories: android
-tags: android asynchronous asyncTask
+tags: android asynchronous asyncTask java
 
 comments: false
 ---

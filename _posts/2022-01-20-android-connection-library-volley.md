@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Connection] 간단하고 Http 통신을 위한 - Volley"
+title:  "[Connection] 간단한 Http 통신을 위한 - Volley"
 subtitle: "connection"
 categories: android
 tags: android connection library volley http client java

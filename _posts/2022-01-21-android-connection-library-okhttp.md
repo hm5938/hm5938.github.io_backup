@@ -9,7 +9,7 @@ comments: true
 
 
 ## 개요
-> Volley에 대해 알아보자
+> OkHTTP 에 대해 알아보자
   
 - 목차
 	- [OkHTTP란?](#OkHTTP란?) 

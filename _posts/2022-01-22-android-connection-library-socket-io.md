@@ -1,4 +1,22 @@
+---
+layout: post
+title:  "[Connection] Socket.io 알아보기"
+subtitle: "connection"
+categories: android
+tags: android connection socket io client  
+comments: false
+---
 
+## 개요
+> `Socket.io`를 이용하여 Socket 연결을 해보자 
+  
+- 목차
+	- [Socket.io란?](#Socket.io란?) 
+	- [환경설정](#환경설정)
+	- [사용법](#사용법)
+	
+## Socket.io란?
+WebSocket을 기반으로 클라이언트와 서버의 양방향 통신을 가능하게 해주는 모듈입니다. WebSocket을 그대로 사용해도 좋지만, Socket.io에는 편의 기능이 많이 추가되어 개발하는 입장에서 사용하기가 굉장히 편리합니다.  
 
 ## 환경설정
 

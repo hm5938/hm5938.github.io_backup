@@ -51,9 +51,9 @@ http통신을 위한 인터넷 허용권한도 필요하다
 ## 사용방법
 `okhttp`의 사용방법은 3가지로 구성할 수 있다.
 
-1. [OkHttpClient 생성](OkHttpClient-생성)
-2. [Request 생성](Request-생성)
-3. [실행 후 respose 받기](실행-후-respose-받기)
+1. [OkHttpClient 생성](#OkHttpClient-생성)
+2. [Request 생성](#Request-생성)
+3. [실행 후 respose 받기](#실행-후-respose-받기)
 
 ### OkHttpClient 생성
 

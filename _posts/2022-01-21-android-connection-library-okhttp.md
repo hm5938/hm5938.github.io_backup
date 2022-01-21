@@ -22,7 +22,7 @@ comments: true
 OkHttp를 이용하면 간편하게 몇 줄의 코딩으로 REST 호출을 전송, HTTP 기반의 요청, 응답을 처리할 수 있다.
 
 "Square"라는 회사가 만든 OkHttp 라이브러리는 `Retrofit` 이라는 라이브러리의 베이스가 된다. 
-[Retrofit 알아보기](https://hm5938.github.io/android/2022/01/17/android-library-connection-retrofit/)
+-> [Retrofit 알아보기](https://hm5938.github.io/android/2022/01/17/android-library-connection-retrofit/)
 
 __특징__
 

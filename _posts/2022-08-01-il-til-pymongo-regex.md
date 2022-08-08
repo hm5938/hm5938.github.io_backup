@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "[Python] pymongo 검색기능 만들기"
+title: "[Python] pymongo 검색기능 만들기"
 subtitle: "til"
 categories: il
-tags: algorithm 
-python regex pymongo
+tags: algorithm python regex pymongo
 comments: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: PlayGround
-slug: playground
+title: Test
+slug: test
 category: algorithm
 menu: false
 order: 2

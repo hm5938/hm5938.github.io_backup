@@ -1,90 +1,84 @@
 ---
 layout: post
-title:  "[Xml] Vector"
-subtitle: "xml"
-categories: android
-tags: android xml vector path sgv
+title:  "[알고리즘] 나누어 떨어지는 숫자 배열"
+subtitle: "test"
+categories: algorithm
+tags: algorithm programmers 12910
 comments: false
 ---
+### **문제 설명**
 
-## 개요
-> `vector`이미지 알아보기
+array의 각 element 중 divisor로 나누어 떨어지는 값을 오름차순으로 정렬한 배열을 반환하는 함수, solution을 작성해주세요.divisor로 나누어 떨어지는 element가 하나도 없다면 배열에 -1을 담아 반환하세요.
 
-- 목차
-	- [vector 이미지 생성](#vector-이미지-생성) 
-	- [속성](#속성)
-	- [환경 구축](#환경-구축)
+### 제한사항
 
-## vector 이미지 생성
-android에서 vector 이미지를 생성하는 방법에는 두가지가 있다.
+- arr은 자연수를 담은 배열입니다.
+- 정수 i, j에 대해 i ≠ j 이면 arr[i] ≠ arr[j] 입니다.
+- divisor는 자연수입니다.
+- array는 길이 1 이상인 배열입니다.
 
-1. [직접 벡터 이미지 생성](#직접-벡터-이미지-생성) 
-	
-2. [svg 파일을 벡터이미지로 변환](#svg-파일을-벡터이미지로-변환) 
+### 입출력 예
 
+[제목 없음](https://www.notion.so/9b39f9d5c284486aa32298d1e51937a5)
 
-### 직접 벡터 이미지 생성
-drawable> 오른쪽마우스 클릭 > New/Drawable Resource File > root element에 vector 적고 OK
+### 입출력 예 설명
 
-생성후 속성과 path를 추가해준다
+입출력 예#1arr의 원소 중 5로 나누어 떨어지는 원소는 5와 10입니다. 따라서 [5, 10]을 리턴합니다.
 
-### svg 파일을 벡터이미지로 변환
+입출력 예#2arr의 모든 원소는 1으로 나누어 떨어집니다. 원소를 오름차순으로 정렬해 [1, 2, 3, 36]을 리턴합니다.
 
-drawable > 오른쪽마우스클릭 > Vector Asset > 경로, 이름 설정후 Next > Finish
+입출력 예#33, 2, 6은 10으로 나누어 떨어지지 않습니다. 나누어 떨어지는 원소가 없으므로 [-1]을 리턴합니다.
 
-## 속성
-`vector`
+### 나의 풀이
 
-* android:width
-* android:height
-* android:viewportWidth
-* android:viewportHeight
-* android:alpha
-  
-`path`
+1. arr만큼 반복하여 divisor로 나눈 나머지 값이 0. 즉 나누어 떨어지면 배열에 a추가
+2. 배열 값이 없다면 -1추가
+3. 오름차순으로 정렬
 
-* android:pathData
-* android:fillColor
-* android:strokeColor
-* android:strokeWidth
-* android:strokeAlpha
-* android:fillAlpha
-* android:strokeLineCap
-* android:strokeLineJoin
-* android:strokeMiterLimit
+```python
+def solution(arr, divisor):
+answer = []
+for a in arr:
+	if a% divisor ==0: #divisor로 나눈 나머지 값이 0. 즉 나누어 떨어지면 배열에 a추가
+		answer.append(a)
 
-`group`
+if len(answer)==0: #배열 값이 없다면 -1추가
+	answer.append(-1)
 
-* android:rotation
-* android:pivotX
-* android:pivotY
-* android:scaleX
-* android:scaleY
-* android:translateX
-* android:translateY
-
-
-```xml
-    android:width="56.69dp"
-    android:height="56.69dp"
-    android:viewportWidth="56.69"
-    android:viewportHeight="56.69"
+answer.sort() #오름차순으로 정렬
+return answer
 ```
-```xml
-  <path
-      android:pathData="M42.89,19.38l-12.29,-7.1v4.25h-3.84c-7.14,0 -12.95,5.81 -12.95,12.95V44.4h5.69V29.49c0,-4 3.26,-7.26 7.26,-7.26h3.84v4.25L42.89,19.38z"
-      android:fillColor="#6E6E6E"/>
-```
-## 환경 구축
 
 ```java
-android {
-    defaultConfig {
-        vectorDrawables.useSupportLibrary = true
-    }
-}
+import java.util.ArrayList;
+import java.util.Arrays;
+class Solution {
+        public int[] solution(int[] arr, int divisor) {
+            
+            ArrayList<Integer> result = new ArrayList<>();
 
-dependencies {
-    implementation 'com.android.support:appcompat-v7:23.2.0'
+//divisor로 나눈 나머지 값이 0. 즉 나누어 떨어지면 배열에 a추가
+            for(int a:arr){
+                if(a%divisor==0){
+                    result.add(a);
+                }
+            }
+
+///배열 값이 없다면 -1추가
+            if(result.size()==0){
+                result.add(-1);
+            }
+            
+//ArrayList -> int[] 형 변환
+            int[] answer = result.stream()
+                        .mapToInt(Integer::intValue)
+                        .toArray();
+            
+//오름차순으로 정렬
+            Arrays.sort(answer);
+
+            
+            return answer;
+        }
 }
 ```

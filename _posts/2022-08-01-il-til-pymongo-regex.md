@@ -3,7 +3,7 @@ layout: post
 title: "[Python] pymongo 검색기능 만들기"
 subtitle: "til"
 categories: il
-tags: il til algorithm python regex pymongo
+tags: il til python regex pymongo
 comments: false
 ---
 

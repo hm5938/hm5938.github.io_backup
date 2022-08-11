@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[알고리즘]   소수 찾기(Programmers12921)"
+title:  "[알고리즘] 소수 찾기"
 subtitle: "test"
 categories: algorithm
 tags: algorithm programmers 12921
